@@ -58,6 +58,9 @@ export default function Header() {
           <Link className="btn btn-enquire mobile-enquire" to="/partner" onClick={() => setOpen(false)}>
             ENQUIRE NOW
           </Link>
+          <div className="mobile-iso-wrap">
+            <IsoBadge />
+          </div>
         </nav>
       ) : null}
     </header>
